@@ -1,0 +1,4 @@
+template_path: vpc.yaml
+parameters:
+  CreatePrivateSubnet: 'false'
+  AvailabilityZones: eu-west-1a

@@ -1,0 +1,5 @@
+template_path: iam.yaml
+parameters:
+  PrivateSubnet: 'true'
+  AssumeRoleARN: arn:aws:iam::012345678910:root
+  InstanceName: SSMExample-private

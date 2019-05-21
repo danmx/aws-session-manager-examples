@@ -1,0 +1,6 @@
+[default]
+  type= "instance-id"
+  output-format= "wide"
+  interactive = false
+  region="eu-west-1"
+  filters="{\"tags\":[{\"key\":\"Name\",\"values\":[\"SSMExample-private\",\"SSMExample-public\"]}]}"

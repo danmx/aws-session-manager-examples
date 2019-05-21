@@ -1,0 +1,10 @@
+template_path: ec2.yaml
+parameters:
+  NameTag: SSMExample-private
+  NumInstanceHosts: '1'
+  KeyPairName: devops-key
+  VPC: !stack_output private/base-vpc.yaml::VPCID
+  SubnetID: !stack_output private/base-vpc.yaml::SubnetID
+  PrivateSubnet: 'true'
+stack_tags:
+  Name: example-ssm
